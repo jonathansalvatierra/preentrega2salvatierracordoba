@@ -1,52 +1,18 @@
-
 /** RESET */
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
 /**----------HEADER-------**/
-header{
-    background-color: black;
-    position: sticky;
-    top: 0;
+header nav{
+    background-color: rgb(133, 9, 9);
 }
-
-header h1{
-    font-size: 40px;
-    font-family: fantasy;
-    font-weight: 500;
-    color: white;
-    display: inline-block;
-}
-
-header nav div{
-    display: inline-block;
-
-}
-
-header nav ul{
-    list-style: none;
-}
-
-header nav ul li{
-    display: inline-block;
-    margin: 15px 20px 15px 20px;
-
-}
-
-header nav ul li a{
-        text-decoration: none;
-    color: white;
-}
-
-
-
 
 /** ----------MAIN---------*/
 
-.hero{
+.hero {
     width: 100%;
     height: 500px;
     background-position: center;
@@ -59,60 +25,60 @@ header nav ul li a{
     background-image: url(../img/c11.jpg);
 }
 
-.hero h2{
+.hero h2 {
     color: white;
     font-size: 50px;
 }
 
-.hero a{
+.hero a {
     background-color: black;
     text-decoration: none;
     color: rgb(243, 241, 241);
     padding: 20px;
 
 }
-.hero p{
+
+.hero p {
     margin-bottom: 50px;
     font-size: 25px;
 }
 
 
-.productos h2{
-background-color: black
-;
-color: white;
-text-align: center;
-padding: 20px;
+.productos h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.productos div{
+.productos div {
     border: 4px black solid;
-    width: 300px;
+    width: 310px;
     height: 550px;
     text-align: center;
     margin: 20px;
     display: inline-block;
 }
 
-.productos div h3{
+.productos div h3 {
     margin-bottom: 30px;
     font-size: 35px;
 }
 
-.productos div a{
+.productos div a {
     background-color: black;
     text-decoration: none;
     color: white;
     padding: 20px;
 }
 
-.productos div img{
-    width: 300px;
+.productos div img {
+    width: 302px;
     height: 350px;
 }
 
 
-.fixed img{
+.fixed img {
     width: 50px;
     position: fixed;
     bottom: 30px;
@@ -124,16 +90,10 @@ padding: 20px;
 footer {
     background-color: rgba(241, 6, 6, 0.623);
 }
-footer img{
+
+footer img {
     width: 50px;
     height: 50px;
     background-color: rgba(255, 255, 255, 0);
-    
-}   
 
-
-
-
-
-
-
+}
